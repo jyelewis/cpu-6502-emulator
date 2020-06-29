@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "forceConsistentCasingInFileNames": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "lib": ["esnext"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "typeRoots": ["node_modules/@types"],
+    "strictFunctionTypes": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["./node_modules"]
+}
