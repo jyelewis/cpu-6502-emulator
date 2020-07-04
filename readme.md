@@ -38,7 +38,7 @@ console.log(cpu.processorStatus);
 
 ### Example 1: Executing simple machine code
 ```javascript 1.8
-import { CPU6502, ReadWrite } from "cpu-6502-emulator";
+import { CPU6502, ReadWrite } from "6502-emulator";
 
 // instruction opcodes
 const I_NOOP = 0xea;
@@ -91,7 +91,7 @@ cpu.reset();
 
 ### Example 2: Load ROM image from disk
 ```javascript 1.8
-import { CPU6502, ReadWrite } from "cpu-6502-emulator";
+import { CPU6502, ReadWrite } from "6502-emulator";
 
 // load image from disk
 const ramImagePath = "./myROMFile";

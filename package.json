@@ -1,5 +1,6 @@
 {
-  "name": "cpu-6502-emulator",
+  "name": "6502-emulator",
+  "description": "Emulator for the MOS6502 CPU. Designed for simulating custom logic boards that use the 6502.",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
